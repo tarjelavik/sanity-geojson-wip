@@ -1,12 +1,8 @@
 {
-  "paths": {
-    "compiled": "./lib",
-    "source": "./src"
-  },
   "parts": [
     {
       "implements": "part:@sanity/base/schema-type",
-      "path": "schemaType.js"
+      "path": "./src/schemas/schema.js"
     }
   ]
 }

@@ -21,19 +21,6 @@ export default createSchema({
           type: 'geojson'
         }
       ]
-    },
-    {
-      name: 'geojson',
-      title: 'GeoJSON',
-      type: 'object',
-      fields: [
-        {
-          name: 'value',
-          title: 'Value',
-          type: 'string',
-          inputComponent: GeoJSONInput
-        }
-      ]
     }
   ])
 })
